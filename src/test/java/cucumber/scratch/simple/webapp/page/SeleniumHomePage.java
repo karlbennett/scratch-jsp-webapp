@@ -8,10 +8,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import shiver.me.timbers.waiting.Wait;
 
 import static java.lang.String.format;
-import static shiver.me.timbers.waiting.Decision.YES;
 
 @Component
 public class SeleniumHomePage implements HomePage {
@@ -34,7 +32,6 @@ public class SeleniumHomePage implements HomePage {
         driver.get(homePageUrl);
     }
 
-    @Wait(waitForTrue = YES)
     @Override
     public boolean isSignedIn(String username) {
         try {
@@ -46,7 +43,6 @@ public class SeleniumHomePage implements HomePage {
         }
     }
 
-    @Wait(waitForTrue = YES)
     @Override
     public boolean isSignedOut() {
         try {
@@ -58,34 +54,34 @@ public class SeleniumHomePage implements HomePage {
         }
     }
 
-    @Wait
     @Override
     public void clickRegister() {
         clickLinkByText("Register");
     }
 
-    @Wait
     @Override
     public void clickSignIn() {
         clickLinkByText("Sign In");
     }
 
-    @Wait
     @Override
     public void clickSignOut() {
         clickLinkByText("Sign Out");
     }
 
-    @Wait
     @Override
     public boolean isCurrentPage() {
         return "Simple Webapp (Home)".equals(driver.getTitle());
     }
 
-    @Wait
     @Override
     public String getUsername() {
         return finders.findByClassName("username").getText();
+    }
+
+    @Override
+    public void clickUsername(String username) {
+        finders.clickByText("a", username);
     }
 
     private void clickLinkByText(String text) {

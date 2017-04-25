@@ -49,7 +49,13 @@ public class RegistrationSteps {
 
     @Then("^the registration should have succeeded$")
     public void the_registration_should_have_succeeded() {
-        assertThat(registrationSuccessPage.getWelcome(), equalTo("Welcome"));
-        assertThat(registrationSuccessPage.getMessage(), equalTo("Your account has been setup. You can now Sign In."));
+        assertThat("The welcome message should be visible.",
+            registrationSuccessPage.getWelcome(),
+            equalTo("Welcome")
+        );
+        assertThat("The registration confirmation message should be visible.",
+            registrationSuccessPage.getMessage(),
+            equalTo("Your account has been setup. You can now Sign In.")
+        );
     }
 }

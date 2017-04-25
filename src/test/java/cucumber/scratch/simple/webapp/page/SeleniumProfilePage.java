@@ -16,6 +16,6 @@ public class SeleniumProfilePage implements ProfilePage {
 
     @Override
     public String getUsername() {
-        return finders.findByClassName("username").getText();
+        return finders.findByClassName("main-heading").getText();
     }
 }

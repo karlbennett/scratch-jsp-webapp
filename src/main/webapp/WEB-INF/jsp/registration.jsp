@@ -1,19 +1,5 @@
 <%@ taglib tagdir="/WEB-INF/tags" prefix="t" %>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <t:common-head />
-    <link rel="stylesheet" type="text/css" href="../css/form.css">
-
-    <title>Simpe Webapp (Registration)</title>
-</head>
-<body>
-<t:header />
-
-<div class="content-container">
-    <h1>Registration</h1>
-
+<t:scaffold title="Simple Webapp (Registration)" heading="Registration">
     <p>
         Register a new account with your choice of username and password.
     </p>
@@ -29,6 +15,4 @@
             <input type="submit" value="Register">
         </div>
     </form>
-</div>
-</body>
-</html>
+</t:scaffold>

@@ -10,7 +10,6 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import shiver.me.timbers.waiting.WaiterAspect;
 
 import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX_38;
 import static java.lang.String.format;
@@ -47,10 +46,5 @@ public class SeleniumConfiguration {
         }
 
         throw new IllegalArgumentException(format("Web driver %s not supported.", webDriver));
-    }
-
-    @Bean
-    public WaiterAspect waiterAspect() {
-        return new WaiterAspect();
     }
 }
