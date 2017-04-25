@@ -1,0 +1,16 @@
+package cucumber.scratch.jsp.webapp.finder;
+
+import org.openqa.selenium.By;
+
+public interface Bys {
+
+    By id(String id);
+
+    By text(String tag, String text);
+
+    By label(String name);
+
+    By value(String value);
+
+    By className(String className);
+}

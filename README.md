@@ -97,15 +97,15 @@ generate an executable WAR that can be run in isolation or deployed to an existi
 ##### Spring Security
 
 Spring Security is used to add sign in functionality to the application, it is configured in the
-[`SecurityConfiguration`](src/main/java/scratch/simple/webapp/SecurityConfiguration.java) class and any other additional
-classes can be found under the [scratch.simple.webapp.security](src/main/java/scratch/simple/webapp/security/) package.
+[`SecurityConfiguration`](src/main/java/scratch/jsp/webapp/SecurityConfiguration.java) class and any other additional
+classes can be found under the [scratch.jsp.webapp.security](src/main/java/scratch/jsp/webapp/security/) package.
 
 ##### Spring MVC
 
 The [Spring MVC](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html) controller,
 interceptor, and argument resolver features are used for URL mapping, session management, and also to automatically sign
 the user in after registration. The classes demonstrating this can be found in the
-[scratch.simple.webapp.controller](src/main/java/scratch/simple/webapp/controller/) package.
+[scratch.jsp.webapp.controller](src/main/java/scratch/jsp/webapp/controller/) package.
 
 ##### Spring Data JPA
 
@@ -113,7 +113,7 @@ the user in after registration. The classes demonstrating this can be found in t
 integrated with Spring Security to provide the credentials for sign in. The auto-configuration features of Spring have
 been used to configure the [H2](http://www.h2database.com/html/main.html) in memory database. So the database has been
 completely configured by simple adding the H2DB maven dependency. Also the Spring Data auto-implementation features have
-been used to create the [`UserRepository`](src/main/java/scratch/simple/webapp/data/UserRepository.java) so that all
+been used to create the [`UserRepository`](src/main/java/scratch/jsp/webapp/data/UserRepository.java) so that all
 that is needed to provided persistence is an interface without any actual data access code.
 
 ### Testing
