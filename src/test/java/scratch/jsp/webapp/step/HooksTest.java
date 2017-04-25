@@ -1,7 +1,7 @@
 package scratch.jsp.webapp.step;
 
+import acceptance.scratch.jsp.webapp.step.Hooks;
 import cucumber.api.Scenario;
-import cucumber.scratch.jsp.webapp.step.Hooks;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.OutputType;

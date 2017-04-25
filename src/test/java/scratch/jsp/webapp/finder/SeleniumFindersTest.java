@@ -1,7 +1,7 @@
 package scratch.jsp.webapp.finder;
 
-import cucumber.scratch.jsp.webapp.finder.Bys;
-import cucumber.scratch.jsp.webapp.finder.SeleniumFinders;
+import acceptance.scratch.jsp.webapp.finder.Bys;
+import acceptance.scratch.jsp.webapp.finder.SeleniumFinders;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;

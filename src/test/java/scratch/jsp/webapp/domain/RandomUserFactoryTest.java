@@ -1,7 +1,7 @@
 package scratch.jsp.webapp.domain;
 
-import cucumber.scratch.jsp.webapp.domain.RandomUserFactory;
-import cucumber.scratch.jsp.webapp.domain.User;
+import acceptance.scratch.jsp.webapp.domain.RandomUserFactory;
+import acceptance.scratch.jsp.webapp.domain.User;
 import org.junit.Before;
 import org.junit.Test;
 import scratch.jsp.webapp.data.UserRepository;

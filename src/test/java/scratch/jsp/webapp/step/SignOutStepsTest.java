@@ -1,7 +1,7 @@
 package scratch.jsp.webapp.step;
 
-import cucumber.scratch.jsp.webapp.page.HomePage;
-import cucumber.scratch.jsp.webapp.step.SignOutSteps;
+import acceptance.scratch.jsp.webapp.page.HomePage;
+import acceptance.scratch.jsp.webapp.step.SignOutSteps;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

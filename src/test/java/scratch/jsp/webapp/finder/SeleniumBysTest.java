@@ -1,6 +1,6 @@
 package scratch.jsp.webapp.finder;
 
-import cucumber.scratch.jsp.webapp.finder.SeleniumBys;
+import acceptance.scratch.jsp.webapp.finder.SeleniumBys;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;

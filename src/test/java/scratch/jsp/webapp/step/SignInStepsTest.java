@@ -1,11 +1,11 @@
 package scratch.jsp.webapp.step;
 
-import cucumber.scratch.jsp.webapp.domain.User;
-import cucumber.scratch.jsp.webapp.domain.UserFactory;
-import cucumber.scratch.jsp.webapp.page.HomePage;
-import cucumber.scratch.jsp.webapp.page.SignInPage;
-import cucumber.scratch.jsp.webapp.step.SignInSteps;
-import cucumber.scratch.jsp.webapp.step.UserHolder;
+import acceptance.scratch.jsp.webapp.domain.User;
+import acceptance.scratch.jsp.webapp.domain.UserFactory;
+import acceptance.scratch.jsp.webapp.page.HomePage;
+import acceptance.scratch.jsp.webapp.page.SignInPage;
+import acceptance.scratch.jsp.webapp.step.SignInSteps;
+import acceptance.scratch.jsp.webapp.step.UserHolder;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InOrder;

@@ -1,7 +1,7 @@
 package scratch.jsp.webapp.page;
 
-import cucumber.scratch.jsp.webapp.finder.Finders;
-import cucumber.scratch.jsp.webapp.page.SeleniumHomePage;
+import acceptance.scratch.jsp.webapp.finder.Finders;
+import acceptance.scratch.jsp.webapp.page.SeleniumHomePage;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.NoSuchElementException;

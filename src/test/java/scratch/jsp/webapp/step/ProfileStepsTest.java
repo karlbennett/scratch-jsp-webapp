@@ -1,10 +1,10 @@
 package scratch.jsp.webapp.step;
 
-import cucumber.scratch.jsp.webapp.domain.User;
-import cucumber.scratch.jsp.webapp.page.HomePage;
-import cucumber.scratch.jsp.webapp.page.ProfilePage;
-import cucumber.scratch.jsp.webapp.step.ProfileSteps;
-import cucumber.scratch.jsp.webapp.step.UserHolder;
+import acceptance.scratch.jsp.webapp.domain.User;
+import acceptance.scratch.jsp.webapp.page.HomePage;
+import acceptance.scratch.jsp.webapp.page.ProfilePage;
+import acceptance.scratch.jsp.webapp.step.ProfileSteps;
+import acceptance.scratch.jsp.webapp.step.UserHolder;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

@@ -1,7 +1,7 @@
 package scratch.jsp.webapp.page;
 
-import cucumber.scratch.jsp.webapp.finder.Finders;
-import cucumber.scratch.jsp.webapp.page.SeleniumRegistrationSuccessPage;
+import acceptance.scratch.jsp.webapp.finder.Finders;
+import acceptance.scratch.jsp.webapp.page.SeleniumRegistrationSuccessPage;
 import org.junit.Before;
 import org.junit.Test;
 

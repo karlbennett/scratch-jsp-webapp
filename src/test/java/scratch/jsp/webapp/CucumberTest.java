@@ -1,6 +1,6 @@
 package scratch.jsp.webapp;
 
-import cucumber.scratch.jsp.webapp.ITCucumber;
+import acceptance.scratch.jsp.webapp.ITCucumber;
 import org.junit.Test;
 
 public class CucumberTest {

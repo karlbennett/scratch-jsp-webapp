@@ -1,6 +1,6 @@
 package scratch.jsp.webapp.step;
 
-import cucumber.scratch.jsp.webapp.step.GenericHolder;
+import acceptance.scratch.jsp.webapp.step.GenericHolder;
 import org.junit.Test;
 
 import static org.hamcrest.Matchers.is;

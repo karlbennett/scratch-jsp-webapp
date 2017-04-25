@@ -1,8 +1,8 @@
 package scratch.jsp.webapp.page;
 
-import cucumber.scratch.jsp.webapp.domain.User;
-import cucumber.scratch.jsp.webapp.finder.Finders;
-import cucumber.scratch.jsp.webapp.page.SeleniumRegistrationPage;
+import acceptance.scratch.jsp.webapp.domain.User;
+import acceptance.scratch.jsp.webapp.finder.Finders;
+import acceptance.scratch.jsp.webapp.page.SeleniumRegistrationPage;
 import org.junit.Test;
 
 import static org.mockito.BDDMockito.given;
